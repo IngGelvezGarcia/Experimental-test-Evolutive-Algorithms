@@ -1,0 +1,35 @@
+Instructions:
+
+To run the experimental set for each algorithm:
+
+1. Copy the objective functions in each directory:
+	-ExperimentsGA
+	-ExperimentsDE
+	-ExperimentsPSO
+2. Copy the files in the respective machine to test M1, M2,...
+3. In the respective machine run the archives:
+    *For machine M1: 
+	-A1RunGA.m
+	-A1RunDE.m
+	-A1RunPSO.m
+    *For machine M2: 
+	-A2RunGA.m
+	-A2RunDE.m
+	-A2RunPSO.m
+4. Collect the data obtained and move to respective directory:
+	-StatisticalMeasuresGA
+	-StatisticalMeasuresDE
+	-StatisticalMeasuresPSO
+5. Convert Octave data to Matlab data format using the files:
+	-DataOctave2MatLabGA.m
+	-DataOctave2MatLabDE.m
+	-DataOctave2MatLabPSO.m
+6. Display the statistical measures using the files:
+    *For Octave: 
+	-StatisticalMeasuresOctaveGA.m
+	-StatisticalMeasuresOctaveDE.m
+	-StatisticalMeasuresOctavePSO.m
+    *For Matlab: 
+	-StatisticalMeasuresMatlabGA.m
+	-StatisticalMeasuresMatlabDE.m
+	-StatisticalMeasuresMatlabPSO.m
